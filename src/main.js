@@ -3,6 +3,7 @@ let config = {
     type: Phaser.CANVAS,
     width: 640,
     height: 480,
+    backgroundColor: '#1FBED6',
     scene: [Menu, Play]
 }
 
@@ -14,4 +15,5 @@ let borderPadding = borderUISize / 3;
 let starspeed = 4;
 
 //reserve keyboard bindings
-let keyF, keyR, keyLEFT, keyRIGHT;
+let keyR, keyLEFT, keyRIGHT, keyUP, keyDOWN,
+    keyA, keyD, keyS, keyW;
