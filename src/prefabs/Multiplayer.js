@@ -33,7 +33,7 @@ class Multiplayer extends Phaser.Scene {
 
         //add rocket p1
         this.p1Rocket = new Rocket(this, game.config.width/8, game.config.height/4 - borderPadding, 'rocket').setOrigin(0.5, 0);
-        this.p2Rocket = new P2rocket(this, game.config.width/8, game.config.height/2 - borderPadding, 'rocket2').setOrigin(0.5, 0);
+        this.p2Rocket = new Otherrocket(this, game.config.width/8, game.config.height/2 - borderPadding, 'rocket2').setOrigin(0.5, 0);
         this.count = 0;
 
         //add spaceship (x3)
