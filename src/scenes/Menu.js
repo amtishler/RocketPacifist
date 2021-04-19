@@ -33,10 +33,10 @@ class Menu extends Phaser.Scene {
         'Use UP and DOWN arrows to move', menuConfig).setOrigin(0.5);
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 
         'Avoid hitting the planes!', menuConfig).setOrigin(0.5);
-        menuConfig.backgroundColor = '#00FF00';
+        menuConfig.backgroundColor = '#FDF000';
         menuConfig.color = '#000';
-        this.add.text(game.config.width/2, game.config.height/2 + borderUISize*2 + borderPadding*2, 
-        'Press <- for Novice or -> for Expert', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 + borderUISize*4 + borderPadding*2, 
+        'Difficulty:\nToddler: <-\nPro-Gamer: ->', menuConfig).setOrigin(0.5);
         
         //define keys
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
