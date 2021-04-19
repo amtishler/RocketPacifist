@@ -4,7 +4,7 @@ let config = {
     width: 640,
     height: 480,
     backgroundColor: '#1FBED6',
-    scene: [Menu, Play]
+    scene: [Menu, Play, Multiplayer]
 }
 
 let game = new Phaser.Game(config);
@@ -16,4 +16,4 @@ let starspeed = 4;
 
 //reserve keyboard bindings
 let keyR, keyLEFT, keyRIGHT, keyUP, keyDOWN,
-    keyA, keyD, keyS, keyW;
+    keyA, keyS, keyW;
